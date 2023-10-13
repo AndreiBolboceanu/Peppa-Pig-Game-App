@@ -105,5 +105,10 @@ btnHold.addEventListener('click', function () {
   }
 });
 
+// Setting dice roll-sound
+let playSoundDice = () => new Audio("rolling-dice-2-sound.mp3").play();
+// Setting hold button
+let playSoundHold = () => new Audio("hold-dice-sound.mp3").play();
 //SET NEW GAME BUTTON
 btnNew.addEventListener('click', init);
+let playSoundNewGame = () => new Audio("new-game-sound.mp3").play();
